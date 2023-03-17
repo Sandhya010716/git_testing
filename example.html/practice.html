@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+        <style>
+            /* style for the form container */
+            .form-container {
+                width:500px;
+                margin:0cap;
+                padding:20px;
+                background-color: #ff00ff;
+                border-radius: 7px;
+                border-color: black;
+            }
+            /* style for the form elements */
+            input[type="text"],textarea,select {
+                width: 70%;
+                padding: 10px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border-radius: 5px;
+                font-size: 15px;
+
+            }
+            /* style for the form button when hovered */
+            input[type="submit"]: hover {
+                background-color: #23ff49;
+            }
+            </stle>
+            </head>
+            <body>
+                <div class="form-container">
+                    <h2> My Form </h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                        <label for="studies">Studies:</label>
+                        <input type="text" id="studies" name="studies" placeholder="Enter your studies">
+
+                        <select id="studies" name="studies">
+                          <option value="bsc">Bsc</option>
+                          <option value="btech">Btech</option>
+                          <option value="others">Others</option>
+                          </select>
+
+                        <label for="college name">College Name:</label>
+                        <input type="text" id="college name" name="college name" placeholder="Enter your college name">
+
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email">
+                         
+                        <input style="submit" value="Submit">
+                  </form>
+                 </div>
+               </body>     
+          </html>
