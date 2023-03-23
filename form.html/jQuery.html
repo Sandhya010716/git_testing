@@ -8,8 +8,12 @@
     </head>
     <body>
         <h1 id="heading1">Welcome to jQuery</h1>
+        <p>paragraph text1</p>
+        <p>paragraph text2</p>
+        <p>paragraph text3</p>
         <script type="text/javascript">
-            document.getElementById("heading1").style.border="2px solid blue"; 
+        $("p").css({"border":"2px solid blue"}); 
+        $("h1").css({"border":"2px solid pink"});
         </script>
     </body> 
 </html>
