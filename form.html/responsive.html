@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Responsive example</title>
+    <meta name="viewport" content="width=device-width,initial-scale=3">
+    <style type="text/css">
+        .box{
+            text-align: center;
+            background-color:crimson;
+            color:yellow;
+             font-size: 50px;
+            display: none;
+        }
+        @media(max-width:380px){
+            #box1{
+                display:block;
+            }
+        }
+
+        @media(min-width:450px){
+            #box2{
+                display:block;
+                background-color:aqua;
+            }
+        }
+        @media(min-width:605px){
+            #box3{
+                display:block;
+                background-color:lightsalmon;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="box" id="box1">Responsive web design</div>   
+        <div class="box" id="box2">Using CSS</div> 
+        <div class="box" id="box3">Linux</div> 
+     </body>
+</html>
